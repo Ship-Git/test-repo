@@ -1,0 +1,103 @@
+body{
+    background-color: rgb(233, 238, 243);
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.contain {
+    display: flex;
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+}
+
+.left{
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: left;
+    margin-left: 200px;
+}
+
+.right{
+    flex-grow: 1;
+    margin-right: 30px;
+    margin-left: 30px;
+    text-align: center;
+    justify-content: center;    
+}
+
+.facebook {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-size: 54px;
+    color: dodgerblue;
+}
+
+.facebook-p {
+    font-size: 26px;
+    margin-top: 0px;
+}
+
+.connexion{
+    /* background-color: rgb(255, 255, 255); */
+    border-radius: 8px;
+    padding: 10px 10px;
+    margin: auto;
+    margin-right: 100px;
+}
+
+.box-connexion {
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 10px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+}
+
+.input {
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: solid 1px lightslategray;
+}
+
+.text-mdp {
+    color: dodgerblue;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.btn-connexion {
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: dodgerblue;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-inscription {
+    margin-top: 15px;
+    background-color: limegreen;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+}
+
+.foot-text{
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+}
